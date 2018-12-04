@@ -1,6 +1,6 @@
 # libogg_ForAndroidNDKAudio
 
-这是一个AndroidStudio工程，用来把 libogg-1.3.3 和 libvorbis-1.3.6 两个库编译成一个 libogg.a 库。<br>
+这是一个AndroidStudio工程，用来把 libogg-1.3.3 和 libvorbis-1.3.6 两套源码编译成一个 libogg.a 库。<br>
 生成的 libogg.a 库，可以用在其他的安卓项目中，提供对ogg音频文件解码的功能。<br>
 <br>
 本工程是由源码中的三个工程合并得来，<br>
@@ -17,4 +17,6 @@ tone.c<br>
 根据实际的目录结构，修改了个别文件中的#include语句。<br>
 <br>
 <br>
-
+编译完毕后， libogg.a 文件位于 ogg/.externalNativeBuild/cmake/debug/arm64-v8a/libogg.a 
+<br>
+<br>
